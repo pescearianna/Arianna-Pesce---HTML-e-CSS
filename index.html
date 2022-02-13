@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Arianna Pesce"> <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Personal Web Site of Arianna Pesce, student of start2impact in the course of Web Developing and UX/UI Design. See the Portfolio with the works.">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!--FAVICON-->
+    <title>Arianna-Pesce</title>
+    <link href="styles/homestyles.css" rel="stylesheet" type="text/css"><!--css personal-->
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Montserrat&display=swap" rel="stylesheet"> <!--FONT-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"><!--ic faq-->
+	
+	<script src="https://kit.fontawesome.com/ecf9d232d9.js" crossorigin="anonymous"></script><!--icone fontawesome-->
+	<script src="scripts/js-index.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<!--Barra di navigazione. LOGO-WELCOME-WORK-ABOUT-CONTACT-->
+<nav class="nav-bar" id="myTopnav">
+	  <div class="nav-contenuto">
+		<a href="#" id="logomenu"><img src="images/logo-black.svg" alt="logo Arianna Pesce" width="50px"></a> 
+		<a id="togglemenu" class="togglemenu"><i class="fas fa-bars"></i></a>
+              <ul class="navlista" id="nav">
+                  <li><a href="#" class="panel">Welcome</a></li>
+                  <li><a href="#Work" class="panel">Work</a></li>
+                  <li><a href="#About" class="panel">About</a></li>
+                  <li><a href="#Contact" class="panel">Contact</a></li>
+              </ul>
+	  </div>
+</nav>
+
+	<!--sezione WELCOME-->
+<header class="welcome">
+		<div class="central">
+          <p>Hi there, I'm</p> 
+          <h1>Arianna Pesce</h1>
+          <div id="carousel">In my work I use <span id="carouselWords">both</span>.</div>
+		</div>
+	
+		<div class="central-sec">
+          <div class="brain-sx">
+            <p>Web Devoloper and UX/UI student</p>
+			  <a href="#Work" class="panel"><button>View my work</button></a>
+          </div> 
+          <div class="brain-dx">
+            <p>Emphatic and passionate traveler</p>
+            <a href="#About" class="panel"><button>Know more about me</button></a>
+          </div>
+			<!--solomobile--><div class="mobilewelcome"><p>Web Devoloper and UX/UI student</p></div>
+		</div>
+</header>
+	
+<main>
+	<!--sezione WORK PORTFOLIO-->
+	<section class="work">
+		<h2>Welcome to my Portfolio</h2>
+		
+		<div class="portfolio">
+			
+			<div class="project">
+				  <a class="prrojj" href="portfolio.html">
+					  <img src="images/progetto-HTML&CSS.jpg" alt="foto rappresenativa del progetto">
+				   </a>
+                  <h3>HTML &amp; CSS</h3>
+                  <p>Progetto Start2impact: construire un personal web site</p>
+              </div>
+			
+			<div class="project">
+				  <a class="prrojj" href="portfolio.html">
+				  <img src="images/progetto-copywriting.jpg" alt="foto rappresenativa del progetto"> </a>
+                  <h3>Copywriting</h3> 
+                  <p>Progetto Start2impact: scrivere un articolo per azienda moda</p>
+              </div>
+			
+			<div class="project">
+				  <a class="prrojj" href="portfolio.html">
+                  <img src="images/progetto-javascript.jpg" alt="foto rappresenativa del progetto"> </a>
+                  <h3>JAVASCRIPT</h3> 
+                  <p>Progetto Start2impact: logo per azienda retail</p>
+              </div>
+			
+			<div class="project">
+				  <a class="prrojj" href="portfolio.html">
+                  <img src="images/progetto-design.jpg" alt="foto rappresenativa del progetto"> </a>
+                  <h3>JAVASCRIPT</h3> 
+                  <p>Progetto Start2impact: logo per azienda retail</p>
+              </div>
+			
+			
+		</div>	
+		</section>
+	<!--<div class="buttonwork">
+				 <button id="buttonwork">Discover more projects</button></div>-->
+		
+	<!--sezione ABOUT-->
+    <section class="about" id="About">
+        <h2>About</h2>
+	  
+            <div class="aboutcontainer">
+				
+              <div class="skill">
+                <h3>SKILL</h3>
+				  
+                 <!--faq skill-->    
+                 <div class="faqs-container">
+                  <div class="faq">
+                    <h4 class="faq-title">
+                      Computer &amp; Technical Programming
+                    </h4>
+                    <div class="faq-text">
+						<div class="skillgrid">
+                        <p>HTML</p><p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
+                        <p>CSS </p><p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
+                        <p>JavaScript</p><p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
+                        <p>Miscroft Office</p><p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                        <p>Adobe Packages </p><p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
+                        <p>Social Media</p><p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
+						<p>Word Press </p><p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
+					  </div>		
+						</div>
+                    <button class="faq-toggle">
+                      <i class="fas fa-chevron-down"></i>
+                      <i class="fas fa-times"></i>
+                    </button>
+					 </div>
+
+                  <div class="faq">
+                    <h4 class="faq-title">
+                      Language knowledge
+                    </h4>
+                    <div class="faq-text">
+						<div class="skillgrid">
+							<p>English</p><p>B2</p>
+                        <p>Spanish</p><p>B2</p>
+                        <p>German</p><p>A2</p>
+                        <p>Italian</p><p>mother tongue</p>
+                    </div></div>
+                    <button class="faq-toggle">
+                      <i class="fas fa-chevron-down"></i>
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+
+                  <div class="faq">
+                    <h4 class="faq-title">
+                      Soft Skill
+                    </h4>
+                    <div class="faq-text">
+                        <p>Problem solving</p>
+                        <p>Communication</p>
+                        <p>Team Work</p>
+                        <p>Adaptability</p>
+                        <p>Problem Solving</p>
+                        <p>Creativity</p>
+                        <p>Leadership</p>
+                        <p>Decision Making</p>
+                    </div>
+                    <button class="faq-toggle">
+                      <i class="fas fa-chevron-down"></i>
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+					 
+                  <div class="faq">
+                    <h4 class="faq-title">
+                      Work Beliefs
+                    </h4>
+                    <div class="faq-text">
+						<div class="skillgrid">
+					  <i class="fat far fa-comments"></i><p>successful design project steam from good communication and keeping the user in the forefront</p>
+					 <i class="fat fas fa-child"></i> <p>in the preference for easy to use</p>
+					  <i class="fat fas fa-fighter-jet"></i><p>fast load times are one of the highest priority</p>
+					  <i class="fat fas fa-globe-europe"></i><p>make an impact in the world</p>
+				  </div>
+                     </div>
+                    <button class="faq-toggle">
+                      <i class="fas fa-chevron-down"></i>
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+
+
+                 </div>
+              </div>
+
+              <div class="golife">
+                  <h3>ABOUT ME</h3>
+				  
+				<div class="mylife">
+                  <p id="whatmylife">What I am doing when I'm not helping to create awesome projects?</p>
+					  <!--<p><q>Sono una persona che unisce la capacità creativa all'inventiva del problem solving. Mi piace mettermi in gioco e investire tempo in progetti diversi con passione e orientamento al risultato.</q></p>-->
+                  <div class="travelcontainer">
+					  
+					 <div class="travel-sx">
+                          <i class="fat fas fa-plane-departure"></i><p>In my spare time I'm a passionate traveler girl, doing volunteering around the world.</p>
+                          <i class="fat far fa-lightbulb"></i>
+                          <p>My travels' experience inspires my creation</p>
+					 </div>
+					  
+					 <div class="travel-dx">
+                        <img src="images/viaggiando.JPG" alt="me in travel">
+					 </div>
+					  
+                  </div>
+					  
+				</div>
+              </div>
+            </div>
+		  
+  </section>
+	
+	<!--sezione CONTACT-->
+    <section class="contact" id="Contact">
+		  <h2>Contact</h2>
+		  <p id="pcontact">How can I help you?</p>
+	  
+		  <div class="contactbody">
+			  
+              <div class="contactsx">
+				  <div class="contacttext">
+                    <p>That's enough about me,</p><p>let's talk about you!</p>
+                    <h3>Or keep in touch</h3>
+                      <p>
+                          <a class="socialicon" href="https://www.facebook.com/arianna.pesce.54" target="_blank"><i class="fab fa-facebook"></i></a>
+                          <a class="socialicon" href="https://www.linkedin.com/in/arianna-pesce-99324a19a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                          <a class="socialicon" href="https://github.com/pescearianna" target="_blank"><i class="fab fa-github"></i></a>
+					  </p>
+                   </div>
+                        <img class="gif" src="images/Fh5.gif" alt="gif decorazione">
+                        <p id="grabco">...or let's grab a <a id="mailto" href="mailto:ariannapesce97@gmail.com">coffee</a></p>
+			  </div>
+			  
+              <div class="contactdx">
+               <div class="formcontainer">   <!--contact form-->
+					  <form action="" method="get" class="speaker-form">
+						  <div class="form-row">
+                            <label for="full-name">Name</label>
+                            <input id="full-name" name="full-name" type="text"/>
+                          </div>
+						  <div class="form-row">
+                          <label for="email">Email</label>
+                          <input id="email"
+                                 name="email"
+                                 type="email"
+                                 placeholder="joe@example.com"/>
+							</div>
+                          <div class="form-row">
+                            <label for="Message">Message</label>
+                            <textarea id="Message" name="Message" placeholder="Describe your talk in 500 words or less"></textarea>
+                          </div>
+							<div align="center">
+                              <button id="sendmessage">Send Message</button>
+                            </div>
+                        </form>
+				  </div>
+        	</div>
+			  
+          </div>
+	  
+  </section>
+	
+</main>
+	
+<!--FOOTER-->
+<footer>
+		<div class="footertext">
+		  <blockquote>
+		  <p>©Arianna Pesce</p>
+		  </blockquote>
+		</div>
+		
+		<div class="footersocial">
+          <p>
+            <a href="https://www.facebook.com/arianna.pesce.54" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/arianna-pesce-99324a19a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/pescearianna" target="_blank"><i class="fab fa-github"></i></a>
+          </p>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>
